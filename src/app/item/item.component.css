@@ -1,0 +1,14 @@
+.container{
+    width: 400px;
+    height: 80px;
+    border: 2px dotted black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.done{
+    text-decoration: line-through;
+}

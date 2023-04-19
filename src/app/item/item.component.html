@@ -1,0 +1,4 @@
+<div class="container" (click)="onFinish(itemIndex)">
+    <h1 [ngClass]="myItem.done ? 'done': ''">{{myItem.description}}</h1>
+<button (click)="onDeleteItem(itemIndex)">Delete</button>
+</div>

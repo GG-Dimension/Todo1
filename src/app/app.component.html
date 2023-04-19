@@ -1,0 +1,5 @@
+
+<div class="container">
+  <app-input></app-input>
+  <app-item *ngFor="let item of list let i = index" [myItem]="item" [itemIndex]="i"></app-item>
+</div>
